@@ -1,0 +1,118 @@
+.item{
+    background-color: rgba($background, 0.4);
+    box-sizing: border-box;
+    flex: 1;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    position: relative;
+    justify-content: center;
+
+    &::after{
+        content: '';
+        z-index: 10;
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        bottom: 5px;
+        border-radius: 50%;
+        right: 5px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+    }
+
+    &-content{
+        display: flex;
+        font-weight: 100;
+    }
+
+    &-right, &-left{
+        position: relative;
+    }
+
+    &-right{
+        div:first-child{
+            display: flex;
+        }
+
+        .item{
+            margin-top: 1.5rem;
+        }
+    }
+
+    &-split{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        margin-top: 1.5rem;
+        height: calc(100% - 3rem);
+
+        div{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+    }
+
+    &::before{
+        position: absolute;
+        left: 0;
+        top: -10px;
+        font-family: $font-title;
+    }
+}
+.testing{
+
+    .item-content{
+        flex-direction: column;
+    }
+}
+.skill-left{
+
+    div{
+        flex-direction: initial;
+    }
+}
+.grafana::before{
+    content: 'Back Office';
+}
+.sentry::before{
+    content: 'A/B Testing';
+}
+.flagr::before{
+    content: 'Errors';
+}
+.git::before{
+    content: 'Code Review';
+}
+.store::before{
+    content: 'Store';
+}
+.cdn::before{
+    content: 'CDN';
+}
+.testing::before{
+    content:'Testing';
+}
+.datacollection::before{
+    content:'Data Collection';
+    position: absolute;
+    top: -2.5rem;
+
+}
+.cicd::before{
+    content:'CI/CD';
+    position: absolute;
+    top: -2.5rem;
+}
+
+.or::after{
+    background-color: $or;
+}
+.argent::after{
+    background-color: $argent;
+}
+.bronze::after{
+    background-color: $bronze;
+}

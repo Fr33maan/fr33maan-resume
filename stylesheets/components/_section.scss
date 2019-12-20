@@ -1,0 +1,52 @@
+section{
+    grid-gap: 1rem;
+    display: grid;
+}
+
+.section{
+
+    &-one,  &-two{
+        grid-template-columns: 1fr 1fr 1fr; 
+        background: $gradient1;
+        margin-bottom: 1.5rem;
+    }
+
+    &-two{
+        background: $gradient2;
+    }
+
+    &-three{
+        grid-template-columns: 1fr 1fr;
+        background: $gradient3;
+        margin-bottom: 1.5rem;
+    }
+    
+    &-three-half{
+        background: $gradient3-half; 
+    }
+
+    &-four{
+        grid-template-columns: 1fr 1fr;
+        background: $gradient4;
+        margin-bottom: 1.5rem;
+    }
+
+    &-five{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        background: $gradient5;
+        margin-bottom: 1.5rem;
+    }
+
+    &-six{
+        background: $gradient6;
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+        margin-bottom: 1.5rem;
+    }
+
+    &-split{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
