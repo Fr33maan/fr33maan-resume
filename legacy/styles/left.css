@@ -1,0 +1,411 @@
+.left {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #282828;
+}
+
+.left>div {
+    width: 100%;
+}
+
+.left p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.left h3 {
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.left h4 {
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* ---- SECTIONS ----- */
+
+/* ---- FRONT ----- */
+/* ---- FRONT ----- */
+/* ---- FRONT ----- */
+
+.front {
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.front>article {
+    height: 45%;
+    width: 90%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle farthest-corner at 0.2% 0.3%, #67319d 0%, #6b2d92 89.9%);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.front>article>section {
+    width: 25%;
+    height: 80%;
+    background: rgba(255, 255, 255, 0.15);
+    margin: 10px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* ---- BACK ----- */
+/* ---- BACK ----- */
+/* ---- BACK ----- */
+
+
+.back {
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.back div {
+    height: 90%;
+    width: 90%;
+    display: grid !important;
+    grid: auto-flow / 1fr 1fr 1fr;
+    border-radius: 4px;
+    background-image: radial-gradient(circle farthest-corner at 0.2% 0.3%, #6034ab 0%, #6531a0 89.9%);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.back section {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 3px;
+    margin: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.back p {
+    text-align: center;
+}
+
+/* ---- OS ----- */
+/* ---- OS ----- */
+/* ---- OS ----- */
+
+.os {
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.os>div {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.os>div>article {
+    height: 90%;
+    width: 48%;
+    border-radius: 4px;
+    background-image: radial-gradient(circle farthest-corner at 0.2% 0.3%, #4048ef 0%, #4a42db 89.9%);
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.os section {
+    width: 45%;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    /* padding: 8px 0; */
+}
+
+
+/** ---------- PLATFORM --------- **/
+/** ---------- PLATFORM --------- **/
+/** ---------- PLATFORM --------- **/
+
+.platform {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.platform>article,
+.platform>div {
+    width: 90%;
+}
+
+.outside,
+.core,
+.interface,
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+p span {
+    font-weight: 100;
+}
+
+h4 span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+/*  ----- OUTSIDE ----- */
+
+.outside {
+    height: 14%;
+    width: 90%;
+    border-radius: 4px;
+    background-image: radial-gradient(circle farthest-corner at 0.2% 0.3%, #3895e3 0%, #395cee 89.9%);
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.outside section {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.outside section:nth-child(1) {
+    width: 60%;
+}
+
+.outside section:nth-child(2) {
+    width: 30%;
+}
+
+.outside section div {
+    display: flex;
+}
+
+.outside section>div,
+.outside section>p {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+
+/*  ----- CORE ----- */
+
+.core {
+    height: 53%;
+}
+
+.core>section {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: radial-gradient(circle farthest-corner at 0.2% 0.3%, #3895e3 0%, #395cee 89.9%);
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    padding: 15px 0;
+}
+
+.core > section h4 {
+    margin-bottom: 7px;
+}
+
+.core > section h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+/*  ----- DATA ----- */
+
+.data {
+    width: 45%;
+    padding: 5px;
+    align-items: center;
+}
+
+.data>div:nth-child(2) {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.data>div>div{
+    width: 45%;
+    height: 100%;
+}
+
+.data>div>div>p{
+    width: 100%;
+    height: 100%;
+}
+
+.data p {
+    text-align: center;
+    width: 45%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+/*  ----- CICD ----- */
+
+.deploy {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.deploy p {
+    width: 45%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.cicd {
+    flex-direction: column;
+}
+
+.testing {
+    /* border: black 1px solid; */
+}
+
+.testing>div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.testing p {
+    width: 31%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+/*  ----- ARROWS ----- */
+
+.arrows {
+    height: 10%;
+}
+
+
+.arrows div {
+    height: 100%;
+    width: 50%;
+    /* background: #0575E6; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrows div:nth-child(1) {
+    transform: rotate(180deg);
+}
+
+.arrows svg {
+    color: #0390e8;
+}
+
+/*  ----- INTERFACE ----- */
+
+
+.interface {
+    height: 18%;
+}
+
+.interface article {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    background-image: radial-gradient(circle farthest-corner at 0.2% 0.3%, #3895e3 0%, #395cee 89.9%);
+    padding: 5px 7px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.interface div {
+    height: 65%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+
+/** ---------- EXECUTIVE --------- **/
+/** ---------- EXECUTIVE --------- **/
+/** ---------- EXECUTIVE --------- **/
+
+.executive {
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.executive > div {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.executive article {
+    width: 20%;
+    height: 70%;
+    border-radius: 5px;
+    background: radial-gradient(circle farthest-corner at 0.2% 0.3%, #37afe4 0%, #399be6 89.9%);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.executive article > div {
+    height: 70%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 3px;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    background: rgba(255, 255, 255, 0.2);
+}
