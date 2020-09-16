@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "live-server",
-    "saas": "sass --watch stylesheets/application.scss:style.css",
+    "saas": "sass --watch src/zellus/stylesheets/application.scss:src/zellus/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
