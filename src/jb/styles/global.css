@@ -12,6 +12,7 @@ body {
     justify-content: center;
     background: #111 !important;
     overflow: hidden;
+    padding-top: 8px;
 }
 
 h2,
